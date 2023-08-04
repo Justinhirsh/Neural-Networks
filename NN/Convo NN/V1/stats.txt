@@ -1,0 +1,9 @@
+10 epochs
+Conv2D: filters=32, kernel_size=(3,3), activation=relu
+MaxPooling2D pool_size=(2,2)
+Conv2D: filters=64, kernel_size=(3,3), activation= relu
+Dropout: rate=0.3
+Conv2D: filters=32, kernel_size=(3,3), activation= relu
+Flatten 
+Dense: units=32, activation= relu
+Dense: units=10, activation= softmax
